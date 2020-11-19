@@ -1,11 +1,7 @@
-## NOTICE
-
-This repository contains the public FTC SDK for the Ultimate Goal (2020-2021) competition season.
-
-Formerly this software project was hosted [here](https://github.com/FIRST-Tech-Challenge/Skystone).  Teams who are competing in the Ultimate Goal Challenge should use this new [FtcRobotController repository](https://github.com/FIRST-Tech-Challenge/FtcRobotController) instead of last season's (no longer updated) Skystone repository.
+# Ultimate Goal (2020-2021) competition season code
 
 ## Welcome!
-This GitHub repository contains the source code that is used to build an Android app to control a *FIRST* Tech Challenge competition robot.  To use this SDK, download/clone the entire project to your local computer.
+This GitHub repository contains the source code for Mount Si Robotics club's Ultimate Goal *FIRST* Tech Challenge competition robot. We will be using a single, competition specific repo which will contain all the code for all teams and samples. Below is a step-by-step guide to getting set up to work on code in this project
 
 ## Getting Started
 If you are new to robotics or new to the *FIRST* Tech Challenge, then you should consider reviewing the [FTC Blocks Tutorial](https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Blocks-Tutorial) to get familiar with how to use the control system:
@@ -17,15 +13,50 @@ Even if you are an advanced Java programmer, it is helpful to start with the [FT
 ## Downloading the Project
 If you are an Android Studio programmer, there are several ways to download this repo.  Note that if you use the Blocks or OnBot Java Tool to program your robot, then you do not need to download this repository.
 
-* If you are a git user, you can clone the most current version of the repository:
+### Step 1: Get Git
+We will be using git to manage our source code. You should download and install the latest version of Git for Windows:
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/FIRST-Tech-Challenge/FtcRobotController.git</p>
+[Git for Windows](https://git-scm.com/download/win)
+[Git for Mac](https://git-scm.com/download/mac)
+[Git for Linux](https://git-scm.com/download/linux)
 
-* Or, if you prefer, you can use the "Download Zip" button available through the main repository page.  Downloading the project as a .ZIP file will keep the size of the download manageable.
+This should start the download automatically. Once it has completed downloading open/run it.
 
-* You can also download the project folder (as a .zip or .tar.gz archive file) from the Downloads subsection of the [Releases](https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases) page for this repository.
+1. Hit 'Next>' on the *Information* screen.
+2. On *Select Components* you can leave the defaults although 'Use a TrueType font in all console windows' can be nice to have.
+3. On *Choosing the default editor...* you can leave the default (Nano).
+4. On *Adjusting yout PATH...* you should leave the default 'Git from the command line...'.
+5. On *Choosing HTTPS...* leave the first option selected 'Use the OpenSSL library'.
+6. On *Configuring the line ending...* please select the last option, 'Checkout as-is, commit as-is'.
+7. On *Configuring the terminal...* leave the default 'Use Windows' default console window'.
+8. On *Configuring extra options* leave the defaults checked.
+9. On *Configuring experimental options* Do not opt-in. Leave it unchecked.
+10. Hit 'Install'
+11. When it's done you can uncheck 'View Release Notes' and hit 'Finish'.
 
-Once you have downloaded and uncompressed (if needed) your folder, you can use Android Studio to import the project  ("Import project (Eclipse ADT, Gradle, etc.)").
+Congratulations! You now have git!
+
+### Step 2: Clone this repo
+
+1. Open a terminal (Command prompt on Windows, Bash on Unix).
+2. Change to a directory for Mount Si repos (EX: <code>/repos/mount-si</code>)
+7. Clone the Mount Si Ultimate Goal repo onto your computer <code>git clone https://github.com/mount-si-robotics/Ultimate-Goal.git</code>
+
+Well done! Now you have all our code on your computer!
+
+### Step 3: Install Android Studio
+
+1. Go to the [Android Studio download](https://developer.android.com/studio)
+2. Click on 'Download Android Studio'
+3. When the download completes (it may take a while) open/run the installer. You can leave all the defaults.
+
+### Step 4: Open and build our project
+
+1. Open Android Studio
+2. When asked, select that you would like to open an existing project
+3. Navigate to the directory you cloned this repo into
+4. Once the project is open it will build with Gradle. It should complete successfully.
+5. Select 'Build' => 'Rebuild Project'. This should complete successfully.
 
 ## Getting Help
 ### User Documentation and Tutorials
