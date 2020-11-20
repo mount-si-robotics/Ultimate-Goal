@@ -17,7 +17,9 @@ If you are an Android Studio programmer, there are several ways to download this
 We will be using git to manage our source code. You should download and install the latest version of Git for Windows:
 
 [Git for Windows](https://git-scm.com/download/win)
+
 [Git for Mac](https://git-scm.com/download/mac)
+
 [Git for Linux](https://git-scm.com/download/linux)
 
 This should start the download automatically. Once it has completed downloading open/run it.
